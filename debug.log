@@ -1,0 +1,870 @@
+- 06:26:35.296 INFO: --------------------------------------------------------
+- 06:26:35.296 INFO: Started application
+- 06:26:35.296 INFO: Logging to: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 06:26:35.296 INFO: Log level = DEBUG4
+- 06:26:35.296 INFO: Starting Mongoose 3.9c web server
+- 06:26:35.296 INFO: WWW directory: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 06:26:35.312 INFO: Index files: index.html,index.php
+- 06:26:35.312 INFO: CGI interpreter: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 06:26:35.312 INFO: CGI pattern: **.php$
+- 06:26:35.327 INFO: Hide files patterns: 
+- 06:26:35.327 INFO: CGI environment variables set: TMP=C:\Users\king\AppData\Local\Temp\,TEMP=C:\Users\king\AppData\Local\Temp\,TMPDIR=C:\Users\king\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 06:26:35.327 INFO: Web server url: http://127.0.0.1:50291/
+- 06:26:35.327 INFO: remote_debugging_port = 57916
+- 06:26:35.343 DEBUG: Command line string for the browser process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=57916
+- 06:26:35.561 DEBUG: App::OnContextInitialized()
+- 06:26:35.561 DEBUG: Window max width/height = 1286/680
+- 06:26:35.561 DEBUG: GetBrowserWindow(): not found, hwnd = 133894
+- 06:26:35.561 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 06:26:35.577 DEBUG: BrowserWindow::CreateBrowserControl()
+- 06:26:35.577 DEBUG: StoreBrowserWindow(): hwnd = 133894
+- 06:26:35.000 DEBUG: Command line string for the gpu-process process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2302 --gpu-driver-date=2-11-2011 --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=A034177ED320A30551E7459EF08BA1AD --mojo-platform-channel-handle=1356 /prefetch:2
+- 06:26:36.780 DEBUG: ClientHandler::OnAfterCreated()
+- 06:26:36.780 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 06:26:36.811 DEBUG: OnLoadingStateChange: loading=1, url=
+- 06:26:36.000 DEBUG: Command line string for the renderer process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3B5990A0B5B62CE88935A8209ED93EE5 --lang=en-US --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=3B5990A0B5B62CE88935A8209ED93EE5 --renderer-client-id=3 --mojo-platform-channel-handle=1580 /prefetch:1
+[0719/062636.602:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 06:26:36.452 DEBUG: OnBrowserCreated()
+- 06:26:39.900 INFO: GET 200 /style.css
+- 06:26:39.979 DEBUG: OnContextCreated()
+- 06:26:39.931 INFO: GET 200 /
+- 06:26:39.009 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50291/
+- 06:26:48.166 DEBUG: GetBrowserWindow(): not found, hwnd = 133904
+- 06:26:48.275 DEBUG: GetBrowserWindow(): not found, hwnd = 133904
+- 06:26:48.384 DEBUG: GetBrowserWindow(): not found, hwnd = 133904
+- 06:26:48.494 DEBUG: GetBrowserWindow(): not found, hwnd = 133904
+- 06:26:48.603 DEBUG: GetBrowserWindow(): not found, hwnd = 133904
+- 06:27:51.141 INFO: --------------------------------------------------------
+- 06:27:51.141 INFO: Started application
+- 06:27:51.141 INFO: Logging to: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 06:27:51.141 INFO: Log level = DEBUG4
+- 06:27:51.141 INFO: Starting Mongoose 3.9c web server
+- 06:27:51.141 INFO: WWW directory: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 06:27:51.141 INFO: Index files: index.html,index.php
+- 06:27:51.141 INFO: CGI interpreter: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 06:27:51.141 INFO: CGI pattern: **.php$
+- 06:27:51.141 INFO: Hide files patterns: 
+- 06:27:51.141 INFO: CGI environment variables set: TMP=C:\Users\king\AppData\Local\Temp\,TEMP=C:\Users\king\AppData\Local\Temp\,TMPDIR=C:\Users\king\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 06:27:51.156 INFO: Web server url: http://127.0.0.1:50302/
+- 06:27:51.156 INFO: remote_debugging_port = 55784
+- 06:27:51.156 DEBUG: Command line string for the browser process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=55784
+- 06:27:51.312 DEBUG: App::OnContextInitialized()
+- 06:27:51.312 DEBUG: Window max width/height = 1286/680
+- 06:27:51.328 DEBUG: GetBrowserWindow(): not found, hwnd = 134448
+- 06:27:51.328 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 06:27:51.328 DEBUG: BrowserWindow::CreateBrowserControl()
+- 06:27:51.328 DEBUG: StoreBrowserWindow(): hwnd = 134448
+- 06:27:51.531 DEBUG: ClientHandler::OnAfterCreated()
+- 06:27:51.531 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 06:27:51.546 DEBUG: OnLoadingStateChange: loading=1, url=
+- 06:27:51.000 DEBUG: Command line string for the gpu-process process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2302 --gpu-driver-date=2-11-2011 --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=122EDD1A082DF78FDC7E7167BD514E71 --mojo-platform-channel-handle=1368 /prefetch:2
+- 06:27:51.000 DEBUG: Command line string for the renderer process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=2DD0421B0422E8658CE5E0D6EC7BF451 --lang=en-US --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=2DD0421B0422E8658CE5E0D6EC7BF451 --renderer-client-id=3 --mojo-platform-channel-handle=1560 /prefetch:1
+[0719/062752.062:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 06:27:52.234 DEBUG: OnBrowserCreated()
+[0719/062752.221:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0719/062752.221:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\webcache\Cache to C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\webcache\old_Cache_000
+[0719/062752.221:ERROR:disk_cache.cc(132)] Unable to create cache
+[0719/062752.240:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0719/062752.240:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\webcache\GPUCache to C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\webcache\old_GPUCache_000
+[0719/062752.240:ERROR:disk_cache.cc(132)] Unable to create cache
+[0719/062752.240:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+- 06:27:54.932 DEBUG: OnContextCreated()
+- 06:27:55.791 INFO: GET 200 /
+- 06:27:55.916 INFO: GET 404 /compressed_jquery_3.5.1.js
+- 06:27:55.182 DEBUG: OnContextCreated()
+- 06:27:55.963 INFO: GET 200 /manage_things.php
+- 06:27:55.010 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062755.253:INFO:CONSOLE(139)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/manage_things.php (139)
+- 06:27:55.025 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062755.259:INFO:CONSOLE(152)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/manage_things.php (152)
+- 06:27:55.041 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50302/
+- 06:28:13.293 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50302/
+- 06:28:13.684 DEBUG: OnContextCreated()
+- 06:28:13.496 INFO: GET 200 /already_taken_without_maintenance_page.php
+- 06:28:13.496 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062813.736:INFO:CONSOLE(95)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/already_taken_without_maintenance_page.php (95)
+- 06:28:13.511 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062813.746:INFO:CONSOLE(108)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/already_taken_without_maintenance_page.php (108)
+- 06:28:13.511 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50302/
+- 06:28:15.649 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50302/
+- 06:28:15.008 DEBUG: OnContextCreated()
+- 06:28:15.742 INFO: GET 200 /already_taken_page.php
+- 06:28:15.758 INFO: GET 404 /compressed_jquery_3.5.1.js
+- 06:28:15.758 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062815.990:INFO:CONSOLE(90)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/already_taken_page.php (90)
+- 06:28:15.758 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062815.999:INFO:CONSOLE(103)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/already_taken_page.php (103)
+- 06:28:16.773 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50302/
+- 06:28:17.068 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50302/
+- 06:28:17.443 DEBUG: OnContextCreated()
+- 06:28:17.177 INFO: GET 200 /things_made_page.php
+- 06:28:17.193 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062817.431:INFO:CONSOLE(90)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/things_made_page.php (90)
+- 06:28:17.209 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062817.444:INFO:CONSOLE(103)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/things_made_page.php (103)
+- 06:28:17.224 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50302/
+- 06:28:18.472 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50302/
+- 06:28:18.832 DEBUG: OnContextCreated()
+- 06:28:18.566 INFO: GET 404 /compressed_jquery_3.5.1.js
+- 06:28:18.581 INFO: GET 404 /compressed_jquery_3.5.1.js
+- 06:28:18.581 INFO: GET 200 /things_not_made_page.php
+[0719/062818.814:INFO:CONSOLE(90)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/things_not_made_page.php (90)
+- 06:28:18.581 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062818.825:INFO:CONSOLE(103)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/things_not_made_page.php (103)
+- 06:28:18.597 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50302/
+- 06:28:19.658 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50302/
+- 06:28:20.064 DEBUG: OnContextCreated()
+- 06:28:20.829 INFO: GET 200 /things_only.php
+- 06:28:20.845 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062820.095:INFO:CONSOLE(145)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/things_only.php (145)
+- 06:28:20.861 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062820.127:INFO:CONSOLE(158)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/things_only.php (158)
+- 06:28:20.892 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50302/
+- 06:28:40.749 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50302/
+- 06:28:41.140 DEBUG: OnContextCreated()
+- 06:28:41.890 INFO: GET 404 /compressed_jquery_3.5.1.js
+- 06:28:41.936 INFO: GET 200 /add_to_db_things_only.php
+- 06:28:41.936 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50302/
+[0719/062842.633:INFO:CONSOLE(21)] "Uncaught ReferenceError: showForm is not defined", source: http://127.0.0.1:50302/add_to_db_things_only.php (21)
+- 06:28:42.403 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50302/
+- 06:28:42.762 DEBUG: OnContextCreated()
+- 06:28:42.496 INFO: GET 200 /manage_things.php
+- 06:28:42.512 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062842.751:INFO:CONSOLE(139)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/manage_things.php (139)
+- 06:28:42.528 INFO: GET 404 /compressed_jquery_3.5.1.js
+[0719/062842.758:INFO:CONSOLE(152)] "Uncaught ReferenceError: $ is not defined", source: http://127.0.0.1:50302/manage_things.php (152)
+- 06:28:42.543 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50302/
+- 06:29:47.564 DEBUG: WM_DESTROY
+- 06:29:47.564 DEBUG: RemoveBrowserWindow(): hwnd = 134448
+- 06:29:47.564 INFO: Stopping Mongoose web server
+- 06:29:47.564 DEBUG: Mongoose webserver stopped immediately
+- 06:29:47.564 DEBUG: OnBeforeClose() hwnd=134454
+- 06:29:47.580 DEBUG: RemoveBrowserWindow(): hwnd = 134454
+- 06:29:47.580 DEBUG: GetBrowserWindow(): not found, hwnd = 134454
+- 06:29:47.580 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 06:29:47.580 DEBUG: Calling CefQuitMessageLoop()
+- 06:29:47.908 DEBUG: OnBrowserDestroyed()
+- 06:29:47.674 INFO: Ended application
+- 06:29:47.674 INFO: --------------------------------------------------------
+- 06:29:50.063 DEBUG: WM_DESTROY
+- 06:29:50.063 DEBUG: RemoveBrowserWindow(): hwnd = 133894
+- 06:29:50.079 INFO: Stopping Mongoose web server
+- 06:29:50.079 DEBUG: Mongoose webserver stopped immediately
+- 06:29:50.079 DEBUG: OnBeforeClose() hwnd=133900
+- 06:29:50.079 DEBUG: RemoveBrowserWindow(): hwnd = 133900
+- 06:29:50.079 DEBUG: GetBrowserWindow(): not found, hwnd = 133900
+- 06:29:50.079 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 06:29:50.079 DEBUG: Calling CefQuitMessageLoop()
+- 06:29:50.172 INFO: Ended application
+- 06:29:50.172 INFO: --------------------------------------------------------
+- 06:29:55.187 INFO: --------------------------------------------------------
+- 06:29:55.187 INFO: Started application
+- 06:29:55.187 INFO: Logging to: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 06:29:55.187 INFO: Log level = DEBUG4
+- 06:29:55.187 INFO: Starting Mongoose 3.9c web server
+- 06:29:55.187 INFO: WWW directory: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 06:29:55.187 INFO: Index files: index.html,index.php
+- 06:29:55.187 INFO: CGI interpreter: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 06:29:55.187 INFO: CGI pattern: **.php$
+- 06:29:55.187 INFO: Hide files patterns: 
+- 06:29:55.187 INFO: CGI environment variables set: TMP=C:\Users\king\AppData\Local\Temp\,TEMP=C:\Users\king\AppData\Local\Temp\,TMPDIR=C:\Users\king\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 06:29:55.203 INFO: Web server url: http://127.0.0.1:50351/
+- 06:29:55.203 INFO: remote_debugging_port = 62945
+- 06:29:55.203 DEBUG: Command line string for the browser process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=62945
+- 06:29:55.359 DEBUG: App::OnContextInitialized()
+- 06:29:55.374 DEBUG: Window max width/height = 1286/680
+- 06:29:55.374 DEBUG: GetBrowserWindow(): not found, hwnd = 265644
+- 06:29:55.374 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 06:29:55.374 DEBUG: BrowserWindow::CreateBrowserControl()
+- 06:29:55.374 DEBUG: StoreBrowserWindow(): hwnd = 265644
+- 06:29:55.000 DEBUG: Command line string for the gpu-process process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2302 --gpu-driver-date=2-11-2011 --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=00594CECD6DC11E0299CF291EC08FB7B --mojo-platform-channel-handle=1312 /prefetch:2
+- 06:29:55.608 DEBUG: ClientHandler::OnAfterCreated()
+- 06:29:55.608 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 06:29:55.686 DEBUG: OnLoadingStateChange: loading=1, url=
+- 06:29:56.000 DEBUG: Command line string for the renderer process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6B13F7D66D9454D5BBAEC877F38835F3 --lang=en-US --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=6B13F7D66D9454D5BBAEC877F38835F3 --renderer-client-id=3 --mojo-platform-channel-handle=1548 /prefetch:1
+[0719/062956.345:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 06:29:56.453 DEBUG: OnBrowserCreated()
+- 06:29:57.779 DEBUG: OnContextCreated()
+- 06:29:57.683 INFO: GET 200 /
+- 06:29:58.167 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 06:29:58.294 DEBUG: OnContextCreated()
+- 06:29:58.260 INFO: GET 200 /manage_things.php
+- 06:29:58.401 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50351/
+[0719/063005.641:INFO:CONSOLE(197)] "5", source: http://127.0.0.1:50351/manage_things.php (197)
+- 06:30:05.374 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50351/
+- 06:30:05.595 DEBUG: OnContextCreated()
+- 06:30:05.499 INFO: GET 200 /add_to_db.php?previous_sn=5
+- 06:30:05.499 INFO: GET 200 /css/nepali_date_picker.css
+- 06:30:05.499 INFO: GET 200 /jquery/nepali_date_picker.js
+[0719/063005.824:INFO:CONSOLE(103)] "Uncaught TypeError: $(...).nepaliDatePicker is not a function", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (103)
+- 06:30:05.561 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50351/
+- 06:30:09.664 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50351/
+- 06:30:10.869 DEBUG: OnContextCreated()
+- 06:30:10.742 INFO: GET 200 /manage_things.php
+- 06:30:10.836 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50351/
+[0719/063526.693:INFO:CONSOLE(197)] "5", source: http://127.0.0.1:50351/manage_things.php (197)
+- 06:35:26.424 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50351/
+- 06:35:26.785 DEBUG: OnContextCreated()
+- 06:35:27.752 INFO: GET 200 /add_to_db.php?previous_sn=5
+[0719/063527.035:INFO:CONSOLE(103)] "Uncaught TypeError: $(...).nepaliDatePicker is not a function", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (103)
+- 06:35:27.783 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50351/
+[0719/063529.127:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+[0719/063529.221:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+[0719/063530.597:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+[0719/063530.741:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+[0719/063535.136:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+[0719/063535.319:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+[0719/063536.561:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+[0719/063536.712:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+[0719/063536.958:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+[0719/063537.117:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50351/add_to_db.php?previous_sn=5 (120)
+- 06:35:41.776 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50351/
+- 06:35:41.028 DEBUG: OnContextCreated()
+- 06:35:41.010 INFO: POST 200 /add_to_db.php
+[0719/063541.291:INFO:CONSOLE(103)] "Uncaught TypeError: $(...).nepaliDatePicker is not a function", source: http://127.0.0.1:50351/add_to_db.php (103)
+[0719/063541.293:INFO:CONSOLE(116)] "Uncaught SyntaxError: Invalid or unexpected token", source: http://127.0.0.1:50351/add_to_db.php (116)
+- 06:35:41.057 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50351/
+- 06:35:42.946 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50351/
+- 06:35:42.167 DEBUG: OnContextCreated()
+- 06:35:42.086 INFO: GET 200 /manage_things.php
+- 06:35:42.133 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50351/
+- 06:52:07.638 DEBUG: WM_DESTROY
+- 06:52:07.638 DEBUG: RemoveBrowserWindow(): hwnd = 265644
+- 06:52:07.638 INFO: Stopping Mongoose web server
+- 06:52:07.638 DEBUG: Mongoose webserver stopped immediately
+- 06:52:07.638 DEBUG: OnBeforeClose() hwnd=200070
+- 06:52:07.654 DEBUG: RemoveBrowserWindow(): hwnd = 200070
+- 06:52:07.654 DEBUG: GetBrowserWindow(): not found, hwnd = 200070
+- 06:52:07.701 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 06:52:07.701 DEBUG: Calling CefQuitMessageLoop()
+- 06:52:08.013 INFO: Ended application
+- 06:52:08.013 INFO: --------------------------------------------------------
+- 06:52:14.249 INFO: --------------------------------------------------------
+- 06:52:14.249 INFO: Started application
+- 06:52:14.249 INFO: Logging to: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 06:52:14.249 INFO: Log level = DEBUG4
+- 06:52:14.249 INFO: Starting Mongoose 3.9c web server
+- 06:52:14.249 INFO: WWW directory: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 06:52:14.249 INFO: Index files: index.html,index.php
+- 06:52:14.249 INFO: CGI interpreter: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 06:52:14.249 INFO: CGI pattern: **.php$
+- 06:52:14.249 INFO: Hide files patterns: 
+- 06:52:14.249 INFO: CGI environment variables set: TMP=C:\Users\king\AppData\Local\Temp\,TEMP=C:\Users\king\AppData\Local\Temp\,TMPDIR=C:\Users\king\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 06:52:14.265 INFO: Web server url: http://127.0.0.1:50889/
+- 06:52:14.281 INFO: remote_debugging_port = 54837
+- 06:52:14.281 DEBUG: Command line string for the browser process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=54837
+- 06:52:14.405 DEBUG: App::OnContextInitialized()
+- 06:52:14.405 DEBUG: Window max width/height = 1286/680
+- 06:52:15.405 DEBUG: GetBrowserWindow(): not found, hwnd = 265706
+- 06:52:15.405 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 06:52:15.405 DEBUG: BrowserWindow::CreateBrowserControl()
+- 06:52:15.405 DEBUG: StoreBrowserWindow(): hwnd = 265706
+- 06:52:15.546 DEBUG: ClientHandler::OnAfterCreated()
+- 06:52:15.546 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 06:52:15.561 DEBUG: OnLoadingStateChange: loading=1, url=
+- 06:52:15.016 DEBUG: Command line string for the gpu-process process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2302 --gpu-driver-date=2-11-2011 --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=9B8B63528655F0AC3F0F0DED58E53818 --mojo-platform-channel-handle=1448 /prefetch:2
+- 06:52:15.016 DEBUG: Command line string for the renderer process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5B28E55E285CA18622A953B09FA5D45E --lang=en-US --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=5B28E55E285CA18622A953B09FA5D45E --renderer-client-id=3 --mojo-platform-channel-handle=1588 /prefetch:1
+[0719/065215.449:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 06:52:15.546 DEBUG: OnBrowserCreated()
+- 06:52:18.401 DEBUG: OnContextCreated()
+- 06:52:18.196 INFO: GET 200 /
+- 06:52:19.571 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 06:52:19.838 DEBUG: OnContextCreated()
+- 06:52:19.633 INFO: GET 200 /manage_things.php
+- 06:52:19.820 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 06:52:54.232 DEBUG: F5 pressed, reloading page
+- 06:52:54.232 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 06:52:54.624 DEBUG: OnContextCreated()
+- 06:52:55.513 INFO: GET 200 /
+- 06:52:55.607 DEBUG: F5 pressed, reloading page
+- 06:52:55.778 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50889/manage_things.php
+- 06:52:55.045 DEBUG: OnContextCreated()
+- 06:52:55.903 INFO: GET 200 /
+- 06:52:55.981 INFO: GET 200 /manage_things.php
+- 06:52:55.044 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 06:52:55.326 DEBUG: OnContextCreated()
+- 06:52:55.153 INFO: GET 200 /manage_things.php
+- 06:52:55.200 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+[0719/065308.076:INFO:CONSOLE(204)] "7", source: http://127.0.0.1:50889/manage_things.php (204)
+- 06:53:08.477 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 06:53:08.884 DEBUG: OnContextCreated()
+- 06:53:08.633 INFO: GET 200 /jquery/nepali_date_picker.js
+- 06:53:08.633 INFO: GET 200 /css/nepali_date_picker.css
+- 06:53:08.758 INFO: GET 200 /add_to_db.php?previous_sn=7
+[0719/065308.381:INFO:CONSOLE(103)] "Uncaught TypeError: $(...).nepaliDatePicker is not a function", source: http://127.0.0.1:50889/add_to_db.php?previous_sn=7 (103)
+- 06:53:08.805 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 06:53:10.505 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 06:53:10.193 DEBUG: OnContextCreated()
+- 06:53:10.004 INFO: GET 200 /manage_things.php
+- 06:53:10.020 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 06:55:54.930 DEBUG: F5 pressed, reloading page
+- 06:55:54.930 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 06:55:54.306 DEBUG: OnContextCreated()
+- 06:55:54.055 INFO: GET 200 /
+- 06:55:55.616 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 06:55:55.883 DEBUG: OnContextCreated()
+- 06:55:55.663 INFO: GET 200 /manage_things.php
+- 06:55:55.772 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 06:56:19.327 DEBUG: F5 pressed, reloading page
+- 06:56:19.327 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 06:56:20.703 DEBUG: OnContextCreated()
+- 06:56:20.514 INFO: GET 200 /
+- 06:56:20.608 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 06:56:20.875 DEBUG: OnContextCreated()
+- 06:56:20.670 INFO: GET 200 /manage_things.php
+- 06:56:20.811 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 07:01:05.590 DEBUG: F5 pressed, reloading page
+- 07:01:05.590 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 07:01:05.060 DEBUG: OnContextCreated()
+- 07:01:05.871 INFO: GET 200 /
+- 07:01:05.199 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:01:05.481 DEBUG: OnContextCreated()
+- 07:01:05.292 INFO: GET 200 /manage_things.php
+- 07:01:05.355 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 07:01:20.660 DEBUG: F5 pressed, reloading page
+- 07:01:20.660 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 07:01:20.083 DEBUG: OnContextCreated()
+- 07:01:20.925 INFO: GET 200 /
+- 07:01:21.440 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:01:21.707 DEBUG: OnContextCreated()
+- 07:01:21.503 INFO: GET 200 /manage_things.php
+- 07:01:21.612 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 07:01:45.948 DEBUG: F5 pressed, reloading page
+- 07:01:45.948 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 07:01:45.386 DEBUG: OnContextCreated()
+- 07:01:45.151 INFO: GET 200 /
+- 07:01:46.870 DEBUG: OnContextCreated()
+- 07:01:46.619 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:01:46.665 INFO: GET 200 /manage_things.php
+- 07:01:46.853 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 07:03:31.013 DEBUG: F5 pressed, reloading page
+- 07:03:31.013 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 07:03:31.122 INFO: GET 200 /
+- 07:03:31.389 DEBUG: OnContextCreated()
+- 07:03:31.263 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:03:31.530 DEBUG: OnContextCreated()
+- 07:03:31.309 INFO: GET 200 /manage_things.php
+- 07:03:32.419 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+[0719/071518.299:INFO:CONSOLE(204)] "7", source: http://127.0.0.1:50889/manage_things.php (204)
+- 07:15:18.698 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 07:15:18.869 INFO: GET 200 /add_to_db.php?previous_sn=7
+- 07:15:18.152 DEBUG: OnContextCreated()
+[0719/071518.584:INFO:CONSOLE(103)] "Uncaught TypeError: $(...).nepaliDatePicker is not a function", source: http://127.0.0.1:50889/add_to_db.php?previous_sn=7 (103)
+- 07:15:18.994 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+[0719/071522.272:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50889/add_to_db.php?previous_sn=7 (120)
+[0719/071522.430:INFO:CONSOLE(120)] "ok", source: http://127.0.0.1:50889/add_to_db.php?previous_sn=7 (120)
+- 07:15:25.702 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 07:15:25.063 DEBUG: OnContextCreated()
+- 07:15:25.874 INFO: POST 200 /add_to_db.php
+[0719/071525.494:INFO:CONSOLE(103)] "Uncaught TypeError: $(...).nepaliDatePicker is not a function", source: http://127.0.0.1:50889/add_to_db.php (103)
+[0719/071525.495:INFO:CONSOLE(116)] "Uncaught SyntaxError: Invalid or unexpected token", source: http://127.0.0.1:50889/add_to_db.php (116)
+- 07:15:25.936 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 07:15:26.841 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 07:15:26.482 DEBUG: OnContextCreated()
+- 07:15:26.262 INFO: GET 200 /manage_things.php
+- 07:15:26.309 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 07:15:44.687 INFO: GET 200 /manage_things.php
+- 07:15:45.107 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:15:45.263 INFO: GET 404 /favicon.ico
+- 07:17:44.276 INFO: GET 200 /manage_things.php
+- 07:17:51.937 DEBUG: F5 pressed, reloading page
+- 07:17:51.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50889/
+- 07:17:51.031 INFO: GET 200 /
+- 07:17:51.298 DEBUG: OnContextCreated()
+- 07:17:51.156 INFO: GET 200 /manage_things.php
+- 07:17:51.171 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:17:51.454 DEBUG: OnContextCreated()
+- 07:17:51.358 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50889/
+- 07:18:00.580 DEBUG: WM_DESTROY
+- 07:18:00.580 DEBUG: RemoveBrowserWindow(): hwnd = 265706
+- 07:18:00.611 INFO: Stopping Mongoose web server
+- 07:18:00.627 DEBUG: Mongoose webserver stopped immediately
+- 07:18:00.658 DEBUG: OnBeforeClose() hwnd=265606
+- 07:18:00.658 DEBUG: RemoveBrowserWindow(): hwnd = 265606
+- 07:18:00.658 DEBUG: GetBrowserWindow(): not found, hwnd = 265606
+- 07:18:00.658 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:18:00.658 DEBUG: Calling CefQuitMessageLoop()
+- 07:18:00.017 INFO: Ended application
+- 07:18:00.017 INFO: --------------------------------------------------------
+- 07:18:05.094 INFO: --------------------------------------------------------
+- 07:18:05.094 INFO: Started application
+- 07:18:05.094 INFO: Logging to: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 07:18:05.094 INFO: Log level = DEBUG4
+- 07:18:05.094 INFO: Starting Mongoose 3.9c web server
+- 07:18:05.094 INFO: WWW directory: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 07:18:05.094 INFO: Index files: index.html,index.php
+- 07:18:05.094 INFO: CGI interpreter: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 07:18:05.094 INFO: CGI pattern: **.php$
+- 07:18:05.094 INFO: Hide files patterns: 
+- 07:18:05.094 INFO: CGI environment variables set: TMP=C:\Users\king\AppData\Local\Temp\,TEMP=C:\Users\king\AppData\Local\Temp\,TMPDIR=C:\Users\king\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 07:18:05.109 INFO: Web server url: http://127.0.0.1:52312/
+- 07:18:05.109 INFO: remote_debugging_port = 55015
+- 07:18:05.125 DEBUG: Command line string for the browser process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=55015
+- 07:18:05.000 DEBUG: Command line string for the gpu-process process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2302 --gpu-driver-date=2-11-2011 --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=8C583F714CAF4F2324F92D27462D206C --mojo-platform-channel-handle=1304 /prefetch:2
+- 07:18:05.312 DEBUG: App::OnContextInitialized()
+- 07:18:05.312 DEBUG: Window max width/height = 1286/680
+- 07:18:05.328 DEBUG: GetBrowserWindow(): not found, hwnd = 331142
+- 07:18:05.328 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:18:05.328 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:18:05.328 DEBUG: StoreBrowserWindow(): hwnd = 331142
+- 07:18:05.531 DEBUG: ClientHandler::OnAfterCreated()
+- 07:18:05.531 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:18:06.687 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:18:06.000 DEBUG: Command line string for the renderer process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FD8485FBFB6A122BB36F59021E14B4B7 --lang=en-US --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=FD8485FBFB6A122BB36F59021E14B4B7 --renderer-client-id=3 --mojo-platform-channel-handle=1564 /prefetch:1
+[0719/071806.583:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 07:18:06.421 DEBUG: OnBrowserCreated()
+- 07:18:08.825 DEBUG: OnContextCreated()
+- 07:18:08.808 INFO: GET 200 /
+- 07:18:08.058 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:18:08.137 DEBUG: OnContextCreated()
+- 07:18:08.120 INFO: GET 200 /manage_things.php
+- 07:18:08.323 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:19:55.638 DEBUG: ClientHandler::OnAfterCreated()
+- 07:19:55.638 DEBUG: GetBrowserWindow(): not found, hwnd = 1445202
+- 07:19:55.638 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 07:19:55.638 DEBUG: StoreBrowserWindow(): hwnd = 1445202
+- 07:19:55.638 DEBUG: Centering popup window relative to its parent
+- 07:19:55.653 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:19:55.000 DEBUG: Command line string for the renderer process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=953552954A22BCA1A9AED57A989B1E14 --lang=en-US --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=953552954A22BCA1A9AED57A989B1E14 --renderer-client-id=4 --mojo-platform-channel-handle=1868 /prefetch:1
+- 07:19:55.125 DEBUG: OnBrowserCreated()
+- 07:19:55.156 DEBUG: OnContextCreated()
+- 07:19:55.402 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 07:21:33.262 DEBUG: OnBeforeClose() hwnd=1445202
+- 07:21:33.262 DEBUG: RemoveBrowserWindow(): hwnd = 1445202
+- 07:21:34.260 DEBUG: F5 pressed, reloading page
+- 07:21:34.260 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:21:34.354 INFO: GET 200 /
+- 07:21:34.433 DEBUG: OnContextCreated()
+- 07:21:34.494 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:21:34.589 DEBUG: OnContextCreated()
+- 07:21:34.510 INFO: GET 200 /manage_things.php
+- 07:21:35.884 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:21:43.136 DEBUG: F5 pressed, reloading page
+- 07:21:43.136 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:21:43.309 DEBUG: OnContextCreated()
+- 07:21:43.230 INFO: GET 200 /
+- 07:21:44.699 DEBUG: OnContextCreated()
+- 07:21:44.636 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:21:44.667 INFO: GET 200 /manage_things.php
+- 07:21:44.854 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:21:57.098 DEBUG: F5 pressed, reloading page
+- 07:21:57.114 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:21:57.192 INFO: GET 200 /
+- 07:21:57.271 DEBUG: OnContextCreated()
+- 07:21:57.332 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:21:57.411 DEBUG: OnContextCreated()
+- 07:21:57.348 INFO: GET 200 /manage_things.php
+- 07:21:57.504 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:26:53.422 DEBUG: F5 pressed, reloading page
+- 07:26:53.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:26:53.611 DEBUG: OnContextCreated()
+- 07:26:54.563 INFO: GET 200 /
+- 07:26:54.766 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:26:54.860 DEBUG: OnContextCreated()
+- 07:26:54.875 INFO: GET 200 /manage_things.php
+- 07:26:54.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:27:08.289 DEBUG: F5 pressed, reloading page
+- 07:27:08.289 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:27:08.524 DEBUG: OnContextCreated()
+- 07:27:09.554 INFO: GET 200 /
+- 07:27:09.788 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:27:09.867 DEBUG: OnContextCreated()
+- 07:27:09.866 INFO: GET 200 /manage_things.php
+- 07:27:09.929 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:27:36.026 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:27:37.636 DEBUG: OnContextCreated()
+- 07:27:37.759 INFO: GET 200 /things_only.php
+- 07:27:37.791 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:27:38.148 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:27:38.586 DEBUG: OnContextCreated()
+- 07:27:39.553 INFO: GET 200 /already_taken_without_maintenance_page.php
+- 07:27:39.616 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:27:54.216 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:27:54.451 DEBUG: OnContextCreated()
+- 07:27:54.403 INFO: GET 200 /things_only.php
+- 07:27:54.481 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:27:56.416 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:27:56.604 DEBUG: OnContextCreated()
+- 07:27:57.556 INFO: GET 200 /
+- 07:27:57.072 DEBUG: OnContextCreated()
+- 07:27:57.008 INFO: GET 200 /manage_things.php
+- 07:27:57.180 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:18.225 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:19.865 DEBUG: OnContextCreated()
+- 07:28:19.833 INFO: GET 200 /things_made_page.php
+- 07:28:19.942 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:19.441 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:19.614 DEBUG: OnContextCreated()
+- 07:28:20.566 INFO: GET 200 /already_taken_page.php
+- 07:28:20.597 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:21.111 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:21.299 DEBUG: OnContextCreated()
+- 07:28:21.282 INFO: GET 200 /things_made_page.php
+- 07:28:21.298 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:22.452 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:23.640 DEBUG: OnContextCreated()
+- 07:28:23.577 INFO: GET 200 /things_not_made_page.php
+- 07:28:23.655 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:38.787 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:38.991 DEBUG: OnContextCreated()
+- 07:28:38.037 INFO: GET 200 /things_only.php
+- 07:28:38.052 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:39.692 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:39.880 DEBUG: OnContextCreated()
+- 07:28:39.863 INFO: GET 200 /things_not_made_page.php
+- 07:28:39.910 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:40.877 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:40.284 DEBUG: OnContextCreated()
+- 07:28:40.314 INFO: GET 200 /things_made_page.php
+- 07:28:40.314 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:41.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:41.173 DEBUG: OnContextCreated()
+- 07:28:41.157 INFO: GET 200 /already_taken_page.php
+- 07:28:41.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:42.061 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:42.234 DEBUG: OnContextCreated()
+- 07:28:42.171 INFO: GET 200 /already_taken_page.php
+- 07:28:42.217 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:28:43.919 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:28:43.248 DEBUG: OnContextCreated()
+- 07:28:43.231 INFO: GET 200 /already_taken_without_maintenance_page.php
+- 07:28:43.278 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:32:56.483 DEBUG: F5 pressed, reloading page
+- 07:32:56.483 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:32:57.765 DEBUG: OnContextCreated()
+- 07:32:57.764 INFO: GET 200 /
+- 07:32:57.905 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:32:57.984 DEBUG: OnContextCreated()
+- 07:32:57.998 INFO: GET 200 /manage_things.php
+- 07:32:57.076 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+[0719/073259.459:INFO:CONSOLE(180)] "Uncaught ReferenceError: Invalid left-hand side in assignment", source: http://127.0.0.1:52312/manage_things.php (180)
+[0719/073259.622:INFO:CONSOLE(180)] "Uncaught ReferenceError: Invalid left-hand side in assignment", source: http://127.0.0.1:52312/manage_things.php (180)
+[0719/073300.326:INFO:CONSOLE(180)] "Uncaught ReferenceError: Invalid left-hand side in assignment", source: http://127.0.0.1:52312/manage_things.php (180)
+[0719/073300.488:INFO:CONSOLE(180)] "Uncaught ReferenceError: Invalid left-hand side in assignment", source: http://127.0.0.1:52312/manage_things.php (180)
+[0719/073300.607:INFO:CONSOLE(180)] "Uncaught ReferenceError: Invalid left-hand side in assignment", source: http://127.0.0.1:52312/manage_things.php (180)
+[0719/073300.781:INFO:CONSOLE(180)] "Uncaught ReferenceError: Invalid left-hand side in assignment", source: http://127.0.0.1:52312/manage_things.php (180)
+[0719/073302.237:INFO:CONSOLE(180)] "Uncaught ReferenceError: Invalid left-hand side in assignment", source: http://127.0.0.1:52312/manage_things.php (180)
+[0719/073322.872:INFO:CONSOLE(180)] "Uncaught ReferenceError: Invalid left-hand side in assignment", source: http://127.0.0.1:52312/manage_things.php (180)
+- 07:33:23.848 DEBUG: F5 pressed, reloading page
+- 07:33:23.848 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+[0719/073323.382:INFO:CONSOLE(180)] "Uncaught ReferenceError: Invalid left-hand side in assignment", source: http://127.0.0.1:52312/manage_things.php (180)
+- 07:33:23.083 DEBUG: OnContextCreated()
+- 07:33:23.082 INFO: GET 200 /
+- 07:33:23.238 DEBUG: F5 pressed, reloading page
+- 07:33:23.410 DEBUG: OnContextCreated()
+- 07:33:23.378 INFO: GET 200 /manage_things.php
+- 07:33:23.440 INFO: GET 200 /
+- 07:33:23.456 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52312/manage_things.php
+- 07:33:23.566 DEBUG: OnContextCreated()
+- 07:33:24.298 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:33:24.393 DEBUG: OnContextCreated()
+- 07:33:24.392 INFO: GET 200 /manage_things.php
+- 07:33:25.564 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:34:32.143 DEBUG: F5 pressed, reloading page
+- 07:34:32.143 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:34:32.441 DEBUG: OnContextCreated()
+- 07:34:33.565 INFO: GET 200 /
+- 07:34:36.966 DEBUG: OnContextCreated()
+- 07:34:36.887 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:34:36.903 INFO: GET 200 /manage_things.php
+- 07:34:36.106 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:35:04.546 DEBUG: F5 pressed, reloading page
+- 07:35:04.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:35:04.813 DEBUG: OnContextCreated()
+- 07:35:04.812 INFO: GET 200 /
+- 07:35:04.061 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:35:04.140 DEBUG: OnContextCreated()
+- 07:35:04.155 INFO: GET 200 /manage_things.php
+- 07:35:04.217 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:35:45.933 DEBUG: F5 pressed, reloading page
+- 07:35:45.933 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:35:45.168 DEBUG: OnContextCreated()
+- 07:35:45.152 INFO: GET 200 /
+- 07:35:45.214 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:35:45.309 DEBUG: OnContextCreated()
+- 07:35:45.277 INFO: GET 200 /manage_things.php
+- 07:35:45.370 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:36:18.068 DEBUG: F5 pressed, reloading page
+- 07:36:18.068 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:36:18.256 DEBUG: OnContextCreated()
+- 07:36:18.177 INFO: GET 200 /
+- 07:36:18.333 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:36:18.333 INFO: GET 200 /manage_things.php
+- 07:36:18.428 DEBUG: OnContextCreated()
+- 07:36:18.505 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:36:40.659 DEBUG: F5 pressed, reloading page
+- 07:36:40.659 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:36:40.878 DEBUG: OnContextCreated()
+- 07:36:40.908 INFO: GET 200 /
+- 07:36:40.049 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:36:40.128 DEBUG: OnContextCreated()
+- 07:36:40.142 INFO: GET 200 /manage_things.php
+- 07:36:40.189 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:39:16.377 DEBUG: F5 pressed, reloading page
+- 07:39:16.377 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:39:16.581 DEBUG: OnContextCreated()
+- 07:39:17.580 INFO: GET 200 /
+- 07:39:17.642 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:39:17.737 DEBUG: OnContextCreated()
+- 07:39:17.736 INFO: GET 200 /manage_things.php
+- 07:39:17.798 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:40:07.343 DEBUG: F5 pressed, reloading page
+- 07:40:07.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:40:07.421 INFO: GET 200 /
+- 07:40:07.515 DEBUG: OnContextCreated()
+- 07:40:08.561 INFO: GET 200 /manage_things.php
+- 07:40:08.561 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:40:08.640 DEBUG: OnContextCreated()
+- 07:40:08.686 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:40:37.780 DEBUG: F5 pressed, reloading page
+- 07:40:37.780 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:40:37.031 DEBUG: OnContextCreated()
+- 07:40:37.983 INFO: GET 200 /
+- 07:40:37.249 DEBUG: OnContextCreated()
+- 07:40:37.186 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:40:37.248 INFO: GET 200 /manage_things.php
+- 07:40:37.373 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 07:41:55.656 DEBUG: F5 pressed, reloading page
+- 07:41:55.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 07:41:55.906 DEBUG: OnContextCreated()
+- 07:41:55.905 INFO: GET 200 /
+- 07:41:57.245 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 07:41:57.324 DEBUG: OnContextCreated()
+- 07:41:57.292 INFO: GET 200 /manage_things.php
+[0719/074157.851:INFO:CONSOLE(243)] "Uncaught TypeError: Cannot read property 'offsetTop' of null", source: http://127.0.0.1:52312/manage_things.php (243)
+- 07:41:57.386 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 14:19:25.085 DEBUG: F5 pressed, reloading page
+- 14:19:26.255 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52312/
+- 14:19:35.241 INFO: GET 200 /
+- 14:19:36.568 DEBUG: OnContextCreated()
+- 14:19:38.987 INFO: GET 200 /manage_things.php
+- 14:19:38.237 DEBUG: OnContextCreated()
+- 14:19:39.657 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 14:19:41.356 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52312/
+- 14:20:14.851 DEBUG: WM_DESTROY
+- 14:20:14.851 DEBUG: RemoveBrowserWindow(): hwnd = 331142
+- 14:20:14.867 INFO: Stopping Mongoose web server
+- 14:20:14.867 DEBUG: Mongoose webserver stopped immediately
+- 14:20:14.976 DEBUG: OnBeforeClose() hwnd=593402
+- 14:20:14.976 DEBUG: RemoveBrowserWindow(): hwnd = 593402
+- 14:20:14.976 DEBUG: GetBrowserWindow(): not found, hwnd = 593402
+- 14:20:14.070 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:20:14.070 DEBUG: Calling CefQuitMessageLoop()
+- 14:20:15.288 DEBUG: OnBrowserDestroyed()
+- 14:20:19.561 INFO: Ended application
+- 14:20:19.561 INFO: --------------------------------------------------------
+- 14:57:14.702 INFO: --------------------------------------------------------
+- 14:57:14.749 INFO: Started application
+- 14:57:14.749 INFO: Logging to: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 14:57:14.749 INFO: Log level = DEBUG4
+- 14:57:14.749 INFO: Starting Mongoose 3.9c web server
+- 14:57:14.749 INFO: WWW directory: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 14:57:14.749 INFO: Index files: index.html,index.php
+- 14:57:14.749 INFO: CGI interpreter: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 14:57:14.749 INFO: CGI pattern: **.php$
+- 14:57:14.749 INFO: Hide files patterns: 
+- 14:57:14.749 INFO: CGI environment variables set: TMP=C:\Users\king\AppData\Local\Temp\,TEMP=C:\Users\king\AppData\Local\Temp\,TMPDIR=C:\Users\king\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:57:14.764 INFO: Web server url: http://127.0.0.1:55998/
+- 14:57:14.764 INFO: remote_debugging_port = 55053
+- 14:57:15.936 DEBUG: Command line string for the browser process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=55053
+- 14:57:19.032 DEBUG: Command line string for the gpu-process process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2302 --gpu-driver-date=2-11-2011 --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=D334BAC02EC89BA9266633734D137599 --mojo-platform-channel-handle=1372 /prefetch:2
+- 14:57:21.004 DEBUG: App::OnContextInitialized()
+- 14:57:21.004 DEBUG: Window max width/height = 1286/680
+- 14:57:21.004 DEBUG: GetBrowserWindow(): not found, hwnd = 269558
+- 14:57:21.004 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:57:21.004 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:57:21.051 DEBUG: StoreBrowserWindow(): hwnd = 269558
+- 14:57:22.549 DEBUG: ClientHandler::OnAfterCreated()
+- 14:57:22.549 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:57:23.000 DEBUG: Command line string for the renderer process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=13C0075785176533DD45550BBEF940B5 --lang=en-US --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=13C0075785176533DD45550BBEF940B5 --renderer-client-id=3 --mojo-platform-channel-handle=1572 /prefetch:1
+- 14:57:23.095 DEBUG: OnLoadingStateChange: loading=1, url=
+[0720/145723.345:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:57:26.433 DEBUG: OnBrowserCreated()
+- 14:57:34.358 INFO: GET 200 /
+- 14:57:35.872 DEBUG: OnContextCreated()
+- 14:57:35.372 INFO: GET 200 /manage_things.php
+- 14:57:35.434 DEBUG: OnContextCreated()
+- 14:57:35.497 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 14:57:37.979 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+[0720/155313.961:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0720/155314.125:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:57:56.686 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:57:57.466 INFO: GET 200 /already_taken_without_maintenance_page.php
+- 15:57:57.481 DEBUG: OnContextCreated()
+- 15:57:57.653 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:57:59.322 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:05.265 DEBUG: OnContextCreated()
+- 15:58:05.359 INFO: GET 200 /already_taken_page.php
+- 15:58:05.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:06.905 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:06.045 DEBUG: OnContextCreated()
+- 15:58:06.077 INFO: GET 200 /already_taken_page.php
+- 15:58:06.092 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:07.652 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:08.073 DEBUG: OnContextCreated()
+- 15:58:08.152 INFO: GET 200 /things_made_page.php
+- 15:58:08.183 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:09.696 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:10.851 DEBUG: OnContextCreated()
+- 15:58:10.836 INFO: GET 200 /things_not_made_page.php
+- 15:58:10.930 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+[0720/155814.633:INFO:CONSOLE(85)] "Uncaught ReferenceError: after_maintenance_clicked is not defined", source: http://127.0.0.1:55998/things_not_made_page.php (85)
+- 15:58:21.583 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:21.801 DEBUG: OnContextCreated()
+- 15:58:22.285 INFO: POST 200 /things_not_made_page.php
+- 15:58:22.426 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:23.315 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:23.580 DEBUG: OnContextCreated()
+- 15:58:23.721 INFO: GET 200 /things_not_made_page.php
+- 15:58:23.799 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:27.184 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:27.308 DEBUG: OnContextCreated()
+- 15:58:27.511 INFO: GET 200 /already_taken_page.php
+- 15:58:27.511 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:29.274 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:29.398 DEBUG: OnContextCreated()
+- 15:58:29.446 INFO: GET 200 /things_made_page.php
+- 15:58:29.461 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:35.436 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:35.560 DEBUG: OnContextCreated()
+- 15:58:35.764 INFO: POST 200 /things_made_page.php
+- 15:58:35.779 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:36.684 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:36.808 DEBUG: OnContextCreated()
+- 15:58:37.934 INFO: GET 200 /things_made_page.php
+- 15:58:37.949 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:39.211 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:39.320 DEBUG: OnContextCreated()
+- 15:58:39.321 INFO: GET 200 /already_taken_without_maintenance_page.php
+- 15:58:39.352 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:42.910 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:42.050 DEBUG: OnContextCreated()
+- 15:58:42.113 INFO: GET 200 /already_taken_page.php
+- 15:58:42.129 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:46.809 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:47.964 DEBUG: OnContextCreated()
+- 15:58:47.027 INFO: GET 200 /already_taken_without_maintenance_page.php
+- 15:58:47.043 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:48.135 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:48.321 DEBUG: OnContextCreated()
+- 15:58:48.338 INFO: GET 200 /for_return_without_maintenance.php
+- 15:58:48.478 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 15:58:57.964 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55998/
+- 15:58:57.291 DEBUG: OnContextCreated()
+- 15:58:57.339 INFO: GET 200 /things_made_page.php
+- 15:58:57.370 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55998/
+- 16:39:36.321 DEBUG: WM_DESTROY
+- 16:39:36.321 DEBUG: RemoveBrowserWindow(): hwnd = 269558
+- 16:39:36.321 INFO: Stopping Mongoose web server
+- 16:39:36.336 DEBUG: Mongoose webserver stopped immediately
+- 16:39:36.336 DEBUG: OnBeforeClose() hwnd=138412
+- 16:39:36.336 DEBUG: RemoveBrowserWindow(): hwnd = 138412
+- 16:39:36.352 DEBUG: GetBrowserWindow(): not found, hwnd = 138412
+- 16:39:36.368 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:39:36.368 DEBUG: Calling CefQuitMessageLoop()
+- 16:39:37.319 INFO: Ended application
+- 16:39:37.319 INFO: --------------------------------------------------------
+- 21:01:41.421 INFO: --------------------------------------------------------
+- 21:01:41.437 INFO: Started application
+- 21:01:41.437 INFO: Logging to: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 21:01:41.437 INFO: Log level = DEBUG4
+- 21:01:41.437 INFO: Starting Mongoose 3.9c web server
+- 21:01:41.437 INFO: WWW directory: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 21:01:41.437 INFO: Index files: index.html,index.php
+- 21:01:41.437 INFO: CGI interpreter: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 21:01:41.437 INFO: CGI pattern: **.php$
+- 21:01:41.437 INFO: Hide files patterns: 
+- 21:01:41.437 INFO: CGI environment variables set: TMP=C:\Users\king\AppData\Local\Temp\,TEMP=C:\Users\king\AppData\Local\Temp\,TMPDIR=C:\Users\king\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:01:41.453 INFO: Web server url: http://127.0.0.1:49885/
+- 21:01:41.453 INFO: remote_debugging_port = 64208
+- 21:01:42.671 DEBUG: Command line string for the browser process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=64208
+- 21:01:45.000 DEBUG: Command line string for the gpu-process process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2302 --gpu-driver-date=2-11-2011 --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=FDDD7EEECA86774CA09A6282052ACE6C --mojo-platform-channel-handle=1372 /prefetch:2
+- 21:01:47.726 DEBUG: App::OnContextInitialized()
+- 21:01:47.726 DEBUG: Window max width/height = 1286/680
+- 21:01:47.726 DEBUG: GetBrowserWindow(): not found, hwnd = 1181488
+- 21:01:47.726 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:01:47.726 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:01:47.726 DEBUG: StoreBrowserWindow(): hwnd = 1181488
+[0722/210147.710:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:01:48.599 DEBUG: ClientHandler::OnAfterCreated()
+- 21:01:48.599 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:01:48.016 DEBUG: Command line string for the renderer process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=299401E205997D3F6296A79A918D095F --lang=en-US --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=299401E205997D3F6296A79A918D095F --renderer-client-id=3 --mojo-platform-channel-handle=1592 /prefetch:1
+- 21:01:48.036 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:01:51.715 DEBUG: OnBrowserCreated()
+- 21:01:54.574 INFO: GET 200 /
+- 21:01:54.147 DEBUG: OnContextCreated()
+- 21:01:54.276 INFO: GET 200 /manage_things.php
+- 21:01:54.521 DEBUG: OnContextCreated()
+- 21:01:54.448 INFO: GET 200 /css/nepali_date_picker.css
+- 21:01:54.448 INFO: GET 200 /jquery/nepali_date_picker.js
+- 21:01:54.479 INFO: GET 200 /compressed_jquery_3.5.1.js
+[0722/210155.516:INFO:CONSOLE(130)] "2077.4.7", source: http://127.0.0.1:49885/manage_things.php (130)
+- 21:01:55.228 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49885/
+[0722/210158.884:INFO:CONSOLE(256)] "6", source: http://127.0.0.1:49885/manage_things.php (256)
+- 21:01:58.394 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49885/
+- 21:01:59.894 INFO: GET 200 /add_to_db.php?previous_sn=6
+- 21:01:59.045 DEBUG: OnContextCreated()
+- 21:01:59.174 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49885/
+[0722/210201.423:INFO:CONSOLE(123)] "ok", source: http://127.0.0.1:49885/add_to_db.php?previous_sn=6 (123)
+[0722/210201.550:INFO:CONSOLE(123)] "ok", source: http://127.0.0.1:49885/add_to_db.php?previous_sn=6 (123)
+[0722/210202.248:INFO:CONSOLE(123)] "ok", source: http://127.0.0.1:49885/add_to_db.php?previous_sn=6 (123)
+[0722/210202.365:INFO:CONSOLE(123)] "ok", source: http://127.0.0.1:49885/add_to_db.php?previous_sn=6 (123)
+- 21:02:04.527 DEBUG: WM_DESTROY
+- 21:02:04.542 DEBUG: RemoveBrowserWindow(): hwnd = 1181488
+- 21:02:04.542 INFO: Stopping Mongoose web server
+- 21:02:04.542 DEBUG: Mongoose webserver stopped immediately
+- 21:02:04.542 DEBUG: OnBeforeClose() hwnd=133844
+- 21:02:04.542 DEBUG: RemoveBrowserWindow(): hwnd = 133844
+- 21:02:04.542 DEBUG: GetBrowserWindow(): not found, hwnd = 133844
+- 21:02:04.542 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:02:04.542 DEBUG: Calling CefQuitMessageLoop()
+- 21:02:04.788 DEBUG: OnBrowserDestroyed()
+- 21:02:04.948 INFO: Ended application
+- 21:02:04.948 INFO: --------------------------------------------------------
+- 21:02:54.000 INFO: --------------------------------------------------------
+- 21:02:54.000 INFO: Started application
+- 21:02:54.000 INFO: Logging to: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 21:02:54.000 INFO: Log level = DEBUG4
+- 21:02:54.015 INFO: Starting Mongoose 3.9c web server
+- 21:02:54.015 INFO: WWW directory: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 21:02:54.015 INFO: Index files: index.html,index.php
+- 21:02:54.015 INFO: CGI interpreter: C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 21:02:54.015 INFO: CGI pattern: **.php$
+- 21:02:54.015 INFO: Hide files patterns: 
+- 21:02:54.015 INFO: CGI environment variables set: TMP=C:\Users\king\AppData\Local\Temp\,TEMP=C:\Users\king\AppData\Local\Temp\,TMPDIR=C:\Users\king\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:02:54.015 INFO: Web server url: http://127.0.0.1:49897/
+- 21:02:54.015 INFO: remote_debugging_port = 52437
+- 21:02:54.015 DEBUG: Command line string for the browser process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=52437
+- 21:02:54.124 DEBUG: App::OnContextInitialized()
+- 21:02:54.124 DEBUG: Window max width/height = 1286/680
+- 21:02:54.124 DEBUG: GetBrowserWindow(): not found, hwnd = 3147540
+- 21:02:54.124 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:02:54.124 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:02:54.124 DEBUG: StoreBrowserWindow(): hwnd = 3147540
+- 21:02:55.000 DEBUG: Command line string for the gpu-process process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x2e32 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2302 --gpu-driver-date=2-11-2011 --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=38007373D7718BCD7C876F7BECDA993E --mojo-platform-channel-handle=1380 /prefetch:2
+- 21:02:55.343 DEBUG: ClientHandler::OnAfterCreated()
+- 21:02:55.343 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:02:55.358 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:02:55.000 DEBUG: Command line string for the renderer process: "C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=999718275602A3924049B163970A00E9 --lang=en-US --lang=en-US --log-file="C:\Users\king\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=999718275602A3924049B163970A00E9 --renderer-client-id=3 --mojo-platform-channel-handle=1552 /prefetch:1
+[0722/210255.447:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:02:55.421 DEBUG: OnBrowserCreated()
+- 21:02:58.276 DEBUG: OnContextCreated()
+- 21:02:58.728 INFO: GET 200 /
+- 21:02:58.946 INFO: GET 200 /jquery/nepali_date_picker.js
+- 21:02:58.946 INFO: GET 200 /compressed_jquery_3.5.1.js
+- 21:02:58.541 DEBUG: OnContextCreated()
+- 21:02:58.102 INFO: GET 200 /css/nepali_date_picker.css
+[0722/210258.970:INFO:CONSOLE(130)] "2077.4.7", source: http://127.0.0.1:49897/manage_things.php (130)
+- 21:02:59.290 INFO: GET 200 /manage_things.php
+- 21:02:59.290 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49897/
+- 21:03:03.767 DEBUG: WM_DESTROY
+- 21:03:03.782 DEBUG: RemoveBrowserWindow(): hwnd = 3147540
+- 21:03:03.782 INFO: Stopping Mongoose web server
+- 21:03:03.782 DEBUG: Mongoose webserver stopped immediately
+- 21:03:03.782 DEBUG: OnBeforeClose() hwnd=264912
+- 21:03:03.782 DEBUG: RemoveBrowserWindow(): hwnd = 264912
+- 21:03:03.782 DEBUG: GetBrowserWindow(): not found, hwnd = 264912
+- 21:03:03.782 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:03:03.782 DEBUG: Calling CefQuitMessageLoop()
+- 21:03:03.985 INFO: Ended application
+- 21:03:03.985 INFO: --------------------------------------------------------

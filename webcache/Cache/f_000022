@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1">
+	<title>LMS</title>
+	<style type="text/css">
+
+		
+		.heading{display:block;background-color:#86C948;height: 10vh;width:90vw;font-size: 4vw;font-family: Lucida Fax;color: white;
+          border-radius: 5px;padding: 0.1vw;padding-left: 2vw;}
+          #action_completion{position: absolute;left: 34.5vw;top: 39vh;z-index: 1;background-color: #524DB5;width: 30vw;padding: 10vh 1vw;font-size: 25px;color: white;text-align: center;} 
+		.button1{background-color:#E7A135;color: white;position: relative;left: 0px;top :-10px;font-size: 15px;height: 5vh; border-radius: 8px;text-decoration: none;}
+    #live_search_box{border-radius: 5px;height: 3vh;position: relative;left: 7vw;top :0px; }
+    textarea{position: relative;left: 0vw;height: 10vh;width: 25vw;font-family: HIMALAYA TT FONT;}
+		
+    #table1{visibility:visible;background-color: #F5DEB3;text-align: center;border-collapse: collapse;font-family: Arial;font-size: 1.2vw;resize: both;font-family: HIMALAYA TT FONT;}
+    #table_heading{background-color: #6E7066;height: 6vh;color: yellow;font-family: HIMALAYA TT FONT;font-weight: bold;font-size: 1.5vw;letter-spacing: 1px;}
+    #div_after_maintenance{display:none;background-color: red;height: 80%;width: 30%;position: relative;top: 25vh;left: 0vw;font-family: HIMALAYA TT FONT;}
+    input[type="text"]::placeholder{font-family: HIMALAYA TT FONT;}
+       input[type="text"]{font-family: HIMALAYA TT FONT;}
+      
+      
+td{height: 7vh;width: 5vw;border: 2px white solid;}
+    tr:hover{background-color: green;}
+
+   
+
+
+
+	</style>
+
+	
+
+
+<script type="text/javascript">
+		 
+
+
+
+
+function after_select_search() {
+  var current_select_type=document.getElementById('select_search_type').value;
+  window.i1 = current_select_type;
+  document.getElementById('live_search_box').value="";  
+  $('#table1 tr').css({"visibility":"visible"});
+}
+
+
+</script>
+
+</head>
+
+
+
+<body id="body">
+    <script type="text/javascript">
+      var i1='sn_id';
+    </script>         
+  
+    <div class="heading" id="heading" style="font-family: HIMALAYA TT FONT">  pks/)fsf] ljj/)f</div><br>
+ <div class="action_completion" id="action_completion" style="display:none;">book</div>
+		
+     
+	
+	
+
+	<div class="div1" id="div1" >
+        <input  id="live_search_box" type="text" autocomplete="off" placeholder='vf]Hg"xf];\===' />
+
+        <select id="select_search_type" onchange="after_select_search()" style="position: relative;left: 10vw;top: -0.9vh;">
+          <option value="sn_id">SN</option>
+          <option value="unit_id">Unit</option>
+          <option value="work_order_no_id">Work Order No</option>
+          <option value="things_name_id">Things Name</option>
+
+        </select>
+      
+		<br>
+		
+
+	</div><!--end of div1-->
+
+
+		<table class='display_table' id='table1' style='width: 98vw; position: absolute;left: 0vw;top: 25vh;table-layout: fixed;' > <tr id='table_heading'><td>l;=g+</td> <td>ldlt</td> <td>o'lg^</td><td>j=c=g+</td> <td>pks/)fsf] gfd</td> <td>PsfO{</td> <td>:f]^ g+</td> <td>lgl/If)f ljj/)f</td><td>v/fla ljj/)f</td> <td>dd{tsf] ljj/)f</td> <td>:^F^;</td> <td></td> </tr><tr><td id='sn_id'>8</td><td id='unit_id'></td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>1</td><td>fg</td><td>fdg</td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>9</td><td id='unit_id'>2121</td><td id='work_order_no_id'>hgf</td><td id='things_name_id'>thgfhgfh</td><td>tretre</td><td>3</td><td>124</td><td>hjgj</td><td>jhjhg</td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>10</td><td id='unit_id'>2121</td><td id='work_order_no_id'>hgf</td><td id='things_name_id'>thgfhgfh</td><td>tretre</td><td>3</td><td>745</td><td>jhgj</td><td>hgjghjhg</td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>11</td><td id='unit_id'>2121</td><td id='work_order_no_id'>hgf</td><td id='things_name_id'>thgfhgfh</td><td>tretre</td><td>3</td><td>55</td><td>jhgj</td><td>gh</td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>12</td><td id='unit_id'>20.2</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>1</td><td>21</td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>13</td><td id='unit_id'>54</td><td id='work_order_no_id'>54</td><td id='things_name_id'>45</td><td>54</td><td>1</td><td>21</td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>14</td><td id='unit_id'>24</td><td id='work_order_no_id'>214</td><td id='things_name_id'>24</td><td>2hg</td><td>1</td><td>kj</td><td>lkj</td><td>lkj</td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>15</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td>1</td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>16</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td>1</td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>17</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>18</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>19</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>20</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>21</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>22</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>23</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>24</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>25</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>26</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>27</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>28</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>29</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>30</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>31</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>32</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>33</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>34</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>35</td><td id='unit_id'>122</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>21</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>36</td><td id='unit_id'>fd</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>1</td><td>12</td><td>12</td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>37</td><td id='unit_id'>201,1,0,1,4</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>1</td><td>12</td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>38</td><td id='unit_id'>21.20.10.1.0</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>1</td><td>1</td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>39</td><td id='unit_id'>2120</td><td id='work_order_no_id'>1jkh</td><td id='things_name_id'>jh</td><td>jhk</td><td>2</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>39</td><td id='unit_id'>2120</td><td id='work_order_no_id'>1jkh</td><td id='things_name_id'>jh</td><td>jhk</td><td>2</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>40</td><td id='unit_id'>1</td><td id='work_order_no_id'></td><td id='things_name_id'></td><td></td><td>1</td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>41</td><td id='unit_id'>21045</td><td id='work_order_no_id'>gfdgr</td><td id='things_name_id'>egfd</td><td>242fd</td><td>3</td><td>548</td><td>jhge</td><td>rtr</td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>41</td><td id='unit_id'>21045</td><td id='work_order_no_id'>gfdgr</td><td id='things_name_id'>egfd</td><td>242fd</td><td>3</td><td>878</td><td>dsaf</td><td>e</td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>41</td><td id='unit_id'>21045</td><td id='work_order_no_id'>gfdgr</td><td id='things_name_id'>egfd</td><td>242fd</td><td>3</td><td>687</td><td>wer</td><td>bhgfd</td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr><tr><td id='sn_id'>42</td><td id='unit_id'></td><td id='work_order_no_id'></td><td id='things_name_id'>gfd</td><td></td><td></td><td></td><td></td><td></td><td></td><td>dd{t gePsf]</td><td><button id='edit_button' onclick='after_maintenance_clicked'>Edit</button>
+                   
+                   </td></tr></table>
+	  
+    <script src="compressed_jquery_3.5.1.js"></script>
+
+	<script type="text/javascript">
+   $("td").dblclick(function () {
+	
+			var x = document.getElementById("t1");
+  x.innerHTML = "NEW CELL CONTENT";
+		})
+	</script>
+
+
+	<script src="compressed_jquery_3.5.1.js"></script>
+<script type="text/javascript">
+
+
+//live search using jquery:
+$(document).ready(function(){
+
+var row_count = $('#table1 tr').length;
+
+//for keyup except back_space:
+$('.div1 input[type="text"]').on("keyup input", function(){
+  
+var input_value = $(this).val();
+
+  if(input_value.length){
+      for (var i = 2; i <= row_count; i++) {
+          $('#table1 tr:nth-child('+i+')').each(function() {
+          var recent_search = $(this).find("#" + i1).html();
+
+          var matcher = new RegExp("^"+input_value);
+          var result_status = matcher.test(recent_search); 
+          if (result_status == false) {
+              $('#table1 tr:nth-child('+i+')').css({"visibility": "collapse"});
+             }
+             else{
+              $('#table1 tr:nth-child('+i+')').css({"visibility": "visible"});
+             }
+            
+          });
+      }//end of for loop:
+
+   }else{
+         $('#table1 tr').css({"visibility":"visible"});
+
+        }//end of else part:
+
+  });//end of key-up function.
+
+});//end of document ready function.
+
+
+
+ //for creating action button : delete and update:
+ $(document).ready(function(){
+
+    // code to read selected table row cell data (when edit button is clicked)
+    $("#table1").on('click','#edit_button',function(){
+      var row_count = $('#table1 tr').length;
+      var table1=document.getElementById('table1');
+            for (var i = 2; i <= row_count; i++) {
+              $('#table1 tr:nth-child('+i+')').css({"visibility": "collapse"});
+            }//for loop:
+      //table1.style.visibility='visible';
+      //table1.style.display='none';
+      //$('#table1 tr:nth-child(1)').css({"display": "block"});
+         // get the current row
+        
+          $('#table1 tr').css({"background-color":"orange"});
+         var currentRow=$(this).closest("tr"); 
+         currentRow.css({"visibility":"visible"});
+         var sn_value=currentRow.find("td:eq(0)").text(); // get current row 1st TD value i.e "SN"
+         var work_order_no_value=currentRow.find("td:eq(3)").text();//row 4th TD i.e "work_order_no"
+         document.getElementById('refrence_sn').value=sn_value;
+         document.getElementById('refrence_work_order_no').value=work_order_no_value;
+
+         document.getElementById('div_after_maintenance').style.display='block';
+         document.getElementById('live_search_box').style.display='none';
+         document.getElementById('select_search_type').style.display='none';
+  
+     }); //end of when edit button is clicked:
+
+
+
+   
+
+    
+});//end of document ready:
+</script>
+
+<div class="div_after_maintenance" id="div_after_maintenance">
+  <button class="button2" ><a href="things_not_made_page.php" target="main_iframe">Back</a></button><br>
+        <form method="POST" action="things_not_made_page.php" autocomplete="off" >
+          <input type="text" name="refrence_sn" id="refrence_sn" style="display: none;">
+          <input type="text" name="refrence_work_order_no" id="refrence_work_order_no" style="display: none;">
+
+          <label for="maintenance_desc">dd{tsf] ljj/)f</label><br>
+                <textarea name="maintenance_desc" id="maintenance_desc" size="25"
+                 placeholder="dd{tsf] ljj/)f" ></textarea><br>
+
+           <label for="maintenance_date">ag]sf] ldlt</label><br>
+                <input  type="text" name="maintenance_date" id="maintenance_date" size="25" placeholder="ag]sf] ldlt" ><br>
+
+          <label for="technician">:fDAflGwt k|fljlws</label><br>
+                <input  type="text" name="technician" id="technician" size="25" placeholder=":fDAflGwt k|fljlws" ><br>
+
+      <input  type="submit" name="submit_name" id="" size="25" placeholder="" value="Save"><br>
+   
+        </form>
+      
+        
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
